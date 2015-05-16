@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+    <TextView
+        android:id="@+id/result_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/result_color"
+        android:textSize="20sp"
+        android:gravity="right|bottom"
+        android:padding="10dp"
+        android:background="@drawable/result_shape"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>

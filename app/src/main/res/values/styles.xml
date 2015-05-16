@@ -5,4 +5,22 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="operator_style">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textColor">@color/operator_button_color</item>
+        <item name="android:background">@drawable/operator_shape</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <!--<item name="android:paddingBottom">10dp</item>-->
+        <!--<item name="android:paddingTop">10dp</item>-->
+        <!--<item name="android:paddingLeft">15dp</item>-->
+        <!--<item name="android:paddingRight">15dp</item>-->
+    </style>
+
+    <style name="divider_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
 </resources>

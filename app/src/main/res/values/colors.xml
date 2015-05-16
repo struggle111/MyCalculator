@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="result_color">#000</color>
+
+    <color name="num_button_color">#ffffa108</color>
+
+    <color name="operator_button_color">#ffffab0f</color>
+
+    <color name="result_background">#fff</color>
+
+    <color name="background">#000</color>
+</resources>
