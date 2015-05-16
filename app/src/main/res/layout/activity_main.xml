@@ -2,15 +2,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
+
     <fragment
+        android:id="@+id/result_fragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
         android:name="com.example.shi_02.mycalculator.ResultFragment"
         tools:layout="@layout/result_layout"></fragment>
+
     <fragment
+        android:id="@+id/operate_fragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="5"

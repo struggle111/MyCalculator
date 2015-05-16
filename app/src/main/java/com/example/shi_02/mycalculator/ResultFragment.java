@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 /**
  * Created by shi-02 on 2015/5/16.
@@ -20,6 +21,7 @@ public class ResultFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
         view = inflater.inflate(R.layout.result_layout,container,false);
 
         initView();
@@ -28,6 +30,9 @@ public class ResultFragment extends Fragment {
     }
 
     private void initView(){
+
         context = getActivity();
+
+
     }
 }
