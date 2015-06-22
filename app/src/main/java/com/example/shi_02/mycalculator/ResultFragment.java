@@ -14,25 +14,14 @@ import android.widget.TextView;
  */
 public class ResultFragment extends Fragment {
 
+    //显示结果的View
     private View view;
-
-    private Context context;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         view = inflater.inflate(R.layout.result_layout,container,false);
-
-        initView();
-
         return view;
-    }
-
-    private void initView(){
-
-        context = getActivity();
-
-
     }
 }
